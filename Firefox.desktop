@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Icon=/userdata/roms/apps/firefox/icons/firefox.png
+Exec=/userdata/roms/apps/firefox/firefox
+Terminal=false
+Type=Application
+Name=Firefox
