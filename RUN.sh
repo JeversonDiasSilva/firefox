@@ -2,23 +2,26 @@
 # Curitiba 10 de setembro de 2024
 # Editor Jeverson Dias da Silva /Youtube/@JCGAMESCLASSICOS
 clear
-echo "Curitiba 10 de setembro de 2024"
-sleep 2
-echo "Editor Jeverson Dias da Silva /Youtube/@JCGAMESCLASSICOS"
+echo -e "\033[1;35m@RETROLUXXO\033[0m"
+echo -e "\033[1;32mCuritiba 10 de setembro de 2024\033[0m"
+sleep 3
+echo ""
+echo -e "\033[1;32mEditor Jeverson Dias da Silva /Youtube/@JCGAMESCLASSICOS\033[0m"
 sleep 5
 clear
-echo "CRIANDO A INSTALAÇÃO"
+echo -e "\033[1;32mCRIANDO A INSTALAÇÃO\033[0m"
+sleep 5
 # 
 wget https://download-installer.cdn.mozilla.net/pub/devedition/releases/122.0b4/linux-x86_64/pt-BR/firefox-122.0b4.tar.bz2
 tar -xvjf firefox-122.0b4.tar.bz2
-sleep 15
+sleep 10
 find firefox -type f -exec chmod +x {} \;
 rm -r firefox-122.0b4.tar.bz2
 mkdir /userdata/roms/apps
 mv firefox /userdata/roms/apps
 clear
 #
-echo "CONFIGURANDO OS DIRETÓRIOS DE TRABALHO"
+echo -e "\033[1;32mCONFIGURANDO OS DIRETÓRIOS DE TRABALHO\033[0m"
 sleep 5
 clear
 cd /userdata
@@ -35,14 +38,15 @@ mv "squashfs-root" "firefox"
 cd /userdata/system/configs/emulationstation
 wget https://raw.githubusercontent.com/JeversonDiasSilva/firefox/main/es_systems_firefox.cfg
 chattr +x -R "/userdata/roms/firefox/#JC GAMES CLASSICOS.sh"
-
+clear
 echo ""
 echo ""
-echo "TE AJUDOU ?"
-echo "QUER ME PAGAR UM CAFÉ ?"
-echo "PIX"
-echo "41 998205080"
-echo "CAUÃ BATISTA DIAS DA SILVA"
+echo -e "\033[1;32mTE AJUDOU ?\033[0m"
+echo -e "\033[1;32mQUER ME PAGAR UM CAFÉ ?\033[0m"
+echo -e "\033[1;32mPIX\033[0m"
+echo -e "\033[1;32m41 998205080\033[0m"
+echo -e "\033[1;32mCAUÃ BATISTA DIAS DA SILVA\033[0m"
+echo -e "\033[1;35mby @RETROLUXXO\033[0m"
 
 
 
