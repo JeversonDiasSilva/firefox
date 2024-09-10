@@ -1,4 +1,8 @@
 # Firefox Developer Edition
+<br>
+<h2>Cria toda a estrutura necessária para que o firefox venha a rodar tanto no menu de jogos quanto no explorador de arquivos de modo desktop</h2>
+<br><br>
+
 ![](./firefox.png)
 <h2>Instalação</h2>
 <br>
