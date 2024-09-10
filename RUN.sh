@@ -37,7 +37,7 @@ cd /userdata/roms
 mv "squashfs-root" "firefox"
 cd /userdata/system/configs/emulationstation
 wget https://raw.githubusercontent.com/JeversonDiasSilva/firefox/main/es_systems_firefox.cfg
-chattr +x -R "/userdata/roms/firefox/#JC GAMES CLASSICOS.sh"
+chattr +i -R "/userdata/roms/firefox/#JC GAMES CLASSICOS.sh"
 clear
 echo ""
 echo ""
