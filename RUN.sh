@@ -24,9 +24,9 @@ cd ..
 rm -r firefox
 mv F firefox
 
-charrr -i -R "/userdata/roms/_firefox/Amazon Games.sh"
-chattr -i -R "/userdata/roms/_firefox/#JC GAMES CLASSICOS.sh"
-chattr -i -R "/userdata/system/configs/emulationstation/es_systems_firefox.cfg"
+charrr +i -R "/userdata/roms/_firefox/Amazon Games.sh"
+chattr +i -R "/userdata/roms/_firefox/#JC GAMES CLASSICOS.sh"
+chattr +i -R "/userdata/system/configs/emulationstation/es_systems_firefox.cfg"
 
 clear
 echo ""
